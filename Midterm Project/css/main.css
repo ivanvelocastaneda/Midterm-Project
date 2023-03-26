@@ -1,0 +1,49 @@
+
+header {
+    margin: 0;
+    text-align: left;
+    border-bottom: 3px solid black;
+}
+
+header h1 {
+    margin: 0;
+    padding: .3em 0;
+}
+tbody{
+    overflow: auto;
+}
+
+footer {
+    clear: left;
+    margin-top: .3em;
+}
+footer p {
+    text-align: right;
+    font-size: 70%;
+    margin: 1em 0;
+}
+.headerColor{
+    color: black;
+}
+.div-container{
+    display: flex;
+    justify-content: center;
+}
+.drop-down-container{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+}
+.btn-class{
+    margin: 3px;
+    padding: 10px;
+}
+.drop-down-selector{
+    padding: 0 5px;
+    margin: 2px 0;
+    border-radius: 5px;
+    height: 20px;
+    border: 1px;
+    width: 80vw;
+    font-weight: bold;
+}
